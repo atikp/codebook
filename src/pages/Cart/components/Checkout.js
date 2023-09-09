@@ -11,8 +11,8 @@ export const Checkout = ({ setCheckout }) => {
 
   const navigate = useNavigate();
 
-  const token = JSON.parse(sessionStorage.getItem("token"));
-  const cbid = JSON.parse(sessionStorage.getItem("cbid"));
+  // const token = JSON.parse(sessionStorage.getItem("token"));
+  // const cbid = JSON.parse(sessionStorage.getItem("cbid"));
   useEffect(() => {
     async function fetchData() {
       try {

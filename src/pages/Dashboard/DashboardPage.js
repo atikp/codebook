@@ -7,8 +7,8 @@ import { toast } from "react-toastify";
 export const DashboardPage = () => {
   useTitle("Dashboard")
   const [orders,setOrders] = useState([]);
-  const token = JSON.parse(sessionStorage.getItem("token"));
-  const cbid = JSON.parse(sessionStorage.getItem("cbid"));
+  // const token = JSON.parse(sessionStorage.getItem("token"));
+  // const cbid = JSON.parse(sessionStorage.getItem("cbid"));
   useEffect(()=>{
     async function fetchOrders(){
       try {
